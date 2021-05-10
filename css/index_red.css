@@ -1,0 +1,391 @@
+/* 隐藏滚动条 */
+/* body::-webkit-scrollbar {
+	display: none;
+}
+ */
+html{
+	overflow-x:hidden
+}
+
+/* 主题色字体和背景和字体相关 */
+.theme-font{
+	color: #CF0000;
+}
+.theme-bg{
+	background-color: #CF0000;
+}
+.black-font{
+	color: #333333;
+}
+.blod-font{
+	font-weight: bold;
+}
+
+
+/* top区相关 */
+#top{
+	background-color: #cf0000;
+}
+#top-nav{
+	background-color: #cf0000;
+}
+#theme{
+	color: #FFFFFF;
+	background-color: #cf0000;
+}
+		
+/* banner区相关 */
+#banner_1,#banner_2,#banner_3,#banner_4{
+	background-color: #eeeeee;
+	min-height: 10px;
+}
+#banner_1 {
+	background-color: #CF0000;
+}
+		
+/* 胶囊导航条相关 */
+.main-nav-pre{
+	color: #333333;
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.main-nav-pre-active{
+	color: #333333;
+	background-color: #CF0000;
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#main_nav_pre_active{
+	color: #FFFFFF;
+	background-color: #CF0000;
+}
+
+/* 主区域相关 */
+
+.main-header-font-1{
+	color: #333333;
+	font-size: 18px;
+	font-weight: normal;
+}
+.main-header-font-2{
+	color: #999999;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.main-header-theme{
+	min-height: 20px;
+	background-color: #CF0000;
+	border-radius: 12px 12px 0px 0px;
+}
+.main-bottom-theme{
+	min-height: 20px;
+	background-color: #CF0000;
+	border-radius: 0px 0px 12px 12px;
+}
+.main-row-2-content{
+	background-color: #f4f4f4;
+	height: 270px;
+}
+.main-row-2-content-list{
+	list-style: none;
+	padding-left: 0px;
+	/* margin-left: 15px; */
+	margin-top: 5px;
+	color: #FFFFFF;
+}
+.main-row-2-content-list li{
+	margin-top: 6px;
+}
+.main-row-2-content-list li a{
+	font-size: 12px;
+	color: #333333;
+}
+.main-row-2-img{
+	height: 100px;
+	width: 100%;
+	/* background-color: #0000FF; */
+}
+.main-row-3-content{
+	/* background-color: #f4f4f4; */
+	height: 150px;
+	border-radius: 15px;
+	/* border: 1px solid #999999; */
+}
+.main-row-3-content-img{
+	/* background-color: #f4f4f4; */
+	width: 100px;
+	height: 100px;
+	border-radius: 15px;
+	border: 1px solid #999999;
+}
+
+/* 搜索行 */
+.search-line{
+	margin-top: 13px;
+	height: 2px;
+	background-color: #CF0000;
+}
+.search-main{
+	border: #CF0000 solid 1px;
+	border-radius: 15px;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.search-main:focus{
+	border: none;
+}
+.search-btn{
+	border: #CF0000 solid 1px;
+	border-radius: 15px;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+	background-color: #CF0000;
+}
+.search-btn:focus{
+	border: none;
+}
+
+/* 友情链接 */
+#friend-link a{
+	color: #CF0000;
+}
+
+/* 侧边导航 */
+.main-course-aside-nav-o{
+	height: 400px;
+}
+.main-course-aside-nav-i-head{
+	height: 48px;
+	background-color: #CF0000;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+	color: #FFFFFF;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 10px 10px 5px #888888;
+}
+.main-course-aside-nav-i{
+	margin-top: 6px;
+	height: 48px;
+	background-color: #f0f0f0;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	/* border-radius: 3px; */
+	color: #333333;
+	box-shadow: 2px 2px 5px #cfcfcf;
+}
+.main-course-aside-nav-i:hover{
+	margin-top: 6px;
+	height: 48px;
+	background-color: #CF0000;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	/* border-radius: 3px; */
+	color: #333333;
+	box-shadow: 5px 5px 5px #888888;
+	margin-bottom: 5px;
+	cursor:pointer;
+}
+.main-course-aside-nav-i:hover span{
+	color: #FFFFFF;
+}
+.main-course-aside-nav-i-active{
+	margin-top: 6px;
+	height: 48px;
+	background-color: #CF0000;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	/* border-radius: 3px; */
+	color: #333333;
+	box-shadow: 5px 5px 5px #888888;
+	margin-bottom: 5px;
+}
+.main-course-aside-nav-i-active span{
+	color: #FFFFFF;
+}
+
+/* 课程介绍相关 */
+.main-course-introduce-p-blod-font{
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.main-course-introduce-p-theme-font{
+	text-indent: 1px;
+	color: #CF0000;
+	letter-spacing: 2px;
+}
+
+/* 课程建设相关 */
+.main-course-build-o{
+	height: 400px;
+}
+.main-course-build-list{
+	height: 260px;
+	list-style: none;
+	padding-left: 0px;
+	/* margin-left: 15px; */
+	margin-top: 0px;
+	color: #FFFFFF;
+}
+.main-course-build-list li{
+	margin-top: 6px;
+}
+.main-course-build-list li a{
+	font-size: 12px;
+	color: #333333;
+}
+
+/* 课程资源相关 */
+.main-course-resources-o{
+	height: 460px;
+}
+.main-course-resources-lst{
+	margin-left: 22px;
+	height: 360px;
+}
+.main-course-resources-row{
+	height: 175px;
+}
+.main-course-resources-row-img{
+	width: 200px;
+	height: 135px;
+}
+.main-course-resources-row-font{
+	font-size: 12px;
+	text-align: center;
+}
+
+/* 文章页面相关 */
+.main-article h1{
+	text-align: center;
+	font-size: 32px;
+}
+.main-article h2{
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+}
+.main-article p{
+	font-size: 18px;
+	line-height: 27px;
+}
+
+/* 搜索结果相关 */
+.main-search-theme{
+	line-height: 50px;
+	min-height: 50px;
+	background-color: #CF0000;
+	border-radius: 18px 18px 0px 0px;
+}
+.main-search-content{
+	background-color: #f4f4f4;
+	min-height: 450px;
+}
+.main-search-content-list{
+	list-style: none;
+	padding-left: 0px;
+	/* margin-left: 15px; */
+	margin-top: 5px;
+	color: #FFFFFF;
+}
+.main-search-content-list li{
+	margin-top: 6px;
+}
+.main-search-content-list li a{
+	font-size: 16px;
+	color: #333333;
+}
+
+/* 问题与答疑相关 */
+.main-qa-q{
+	background-color: #CF0000;
+	color: #FFFFFF;
+	height: 60px;
+	line-height: 60px;
+	letter-spacing: 2px;
+	font-size: 24px;
+	text-indent: 6px;
+	border-radius: 2px 2px 0px 0px;
+}
+.main-qa-q span{
+	font-size: 18px;
+}
+.main-qa-q:hover{
+	cursor:pointer
+}
+.main-qa-a{
+	background-color: #fefefe;
+	color: #333333;
+	min-height: 180px;
+	/*text-indent: 28px;*/
+	border-radius: 0px 0px 2px 2px;
+	/* display: none; */
+}
+.main-qa-a p{
+	color: #333333;
+	line-height: 28px;
+	font-size: 16px;
+	/* text-indent: 28px; */
+	margin-left: 1%;
+	width: 98%;
+}
+
+
+/* 未做相关 */
+.main-course-maintain{
+	height: 400px;
+	background-color: #e5e5e5;
+}
+.main-course-maintain h1{
+	line-height: 400px;
+	text-align: center;
+}
+
+/* 页脚相关 */
+#footer{
+	background-color: #CF0000;
+	height: 60px;
+}
+#footer p{
+	line-height: 16px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+}
+.footer-center{
+	margin-top: 18px;
+}
+
+/* 分割线 */
+.li-divider{
+	height: 1px;
+	background-color: #CF0000;
+}
+
+/* 小号空白行 */
+.blank-small{
+	height: 5px;
+}
+.blank-md{
+	height: 30px;
+}
+.blank-big{
+	height: 60px;
+}
+
+/* p中小号文字 */
+.p-small{
+	font-size: 12px;
+	line-height: 20px;
+	color: #333333;
+}
